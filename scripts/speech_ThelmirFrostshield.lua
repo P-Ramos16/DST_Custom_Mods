@@ -28,27 +28,27 @@ return {
 		},
 		STORE =
 		{
-			GENERIC = "It's full.",
-			NOTALLOWED = "That can't go in there.",
-			INUSE = "I should wait my turn.",
-            NOTMASTERCHEF = "I'm not a fancy enough chef for that.",
+			GENERIC = "It's filled to the brim!.",
+			NOTALLOWED = "That can't go in there!",
+			INUSE = "C'mon mister!.",
+            NOTMASTERCHEF = "I'll probably just burn it to a fine crisp.",
 		},
         CONSTRUCT =
         {
             INUSE = "Someone beat me to it.",
             NOTALLOWED = "It won't fit.",
-            EMPTY = "I need something to build with.",
+            EMPTY = "I need some stuff to build this.",
             MISMATCH = "Whoops! Wrong plans.",
         },
 		RUMMAGE =
 		{	
-			GENERIC = "I can't do that.",
-			INUSE = "They're elbow deep in junk right now.",
-            NOTMASTERCHEF = "I'm not a fancy enough chef for that.",
+			GENERIC = "I can't do that right now.",
+			INUSE = "They're elbow deep in junk right now!",
+            NOTMASTERCHEF = "I'll probably just burn it to a fine crisp.",
 		},
 		UNLOCK =
         {
-        	WRONGKEY = "I can't do that.",
+        	WRONGKEY = "Whoops! Can't do that.",
         },
 		USEKLAUSSACKKEY =
         {
@@ -58,11 +58,11 @@ return {
         },
 		ACTIVATE = 
 		{
-			LOCKED_GATE = "The gate is locked.",
+			LOCKED_GATE = "The gate is locked tighter than my chest!",
 		},
         COOK =
         {
-            GENERIC = "I can't cook right now.",
+            GENERIC = "I can't cook with you there!",   --HERE
             INUSE = "Looks like we had the same idea.",
             TOOFAR = "It's too far away!",
         },
